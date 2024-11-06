@@ -47,7 +47,7 @@ uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["cs
 
 if uploaded_file is not None:
     input_data = pd.read_csv(uploaded_file)
-    st.markdown("<h1 style='text-align: center;'>Unsupervised Learning - 11841</h1>", unsafe_allow_html=True) 
+    st.markdown("<h1 style='text-align: center;'>Unsupervised Learning - Davin</h1>", unsafe_allow_html=True) 
     st.dataframe(input_data)
 
     # Direktori tempat penyimpanan model
