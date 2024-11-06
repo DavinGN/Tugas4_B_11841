@@ -52,7 +52,7 @@ if uploaded_file is not None:
 
     # Direktori tempat penyimpanan model
     model_path = {
-        "AGG_model": or'AGG_model.pkl',
+        "AGG_model": 'AGG_model.pkl',
         "KMeans_model": r'KMeans_model.pkl',
         "DBSCAN_model": r'DBSCAN_model.pkl'
     }
